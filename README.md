@@ -28,7 +28,7 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png" height="400">
 </p>
 
-![DAtamodel](https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png)
+![DAtamodel](https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png raw=true)
 
 ## Dashboard 
 
