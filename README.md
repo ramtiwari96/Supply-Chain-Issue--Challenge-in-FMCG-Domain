@@ -19,10 +19,7 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 - Create a dashboard according to the requirements provided by stakeholders in the business review meeting. You will be provided with the transcript of this business review meeting in the form of a comic.
 - Create relevant insights that are not provided in the metric list/stakeholder meeting.
 
-## Tools
 
-- Python - First of all, we imported the data through Python's pandas library, analyzed the data set, and checked that it did not contain any duplicate or missing values.
-- Power Bi - After this, we used power bi for data visualization where we created many measures which served our niche and prepared a good dashboard to extract useful insights.
 
 ## Data Model 
 
@@ -54,8 +51,11 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page4_powerbi_dashboard.png" width="300">
 </p>
 
-https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page4_powerbi_dashboard.png
+## Tools
 
+- Python - First of all, we imported the data through Python's pandas library, analyzed the data set, and checked that it did not contain any duplicate or missing values.
+- Power Bi - After this, we used power bi for data visualization where we created many measures which served our niche and prepared a good dashboard to extract useful insights.
+  
 ## DAX MEASURES
 DAX Formula
 Measures of fact_order_lines
