@@ -100,7 +100,7 @@ fact_orders_aggregate[on_time]=1)
 - All the Key Metrics (OT%, IF%, OTIF%) are far behind the target
 - Surat has fewer orders and delivered orders than other cities, but Vadodara has more undelivered Orders.
 - On an average, orders are delayed 0.42 days from the agreed date of delivery
-- Highest Undeliverd orders are coming in Vododara City
+- Highest orders are coming in Vododara City
 - Ghee, curd and butter products are most delayed to deliver. 
 - There is no noticeable improvements in any of the key metrics in the last few months
 - There is a huge gap in IF% for most of the customers. Is it because of less production?
