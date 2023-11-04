@@ -95,7 +95,6 @@ Measures of fact_targets_orders
 2.	OT Traget % = AVERAGE(dim_targets_orders[ontime_target%])
 3.	OTIF Traget% = AVERAGE(dim_targets_orders[otif_target%])
 
->>>>>>> f5c2c0687ced6c735a8bb91b33c56ef683d8586a
 
 ## Some Major Insights 
 
