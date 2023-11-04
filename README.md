@@ -53,7 +53,7 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page4_powerbi_dashboard.png" width="300">
 </p>
 
-page4_powerbi_dashboard.
+https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page4_powerbi_dashboard.png
 
 ## DAX MEASURES
 DAX Formula
