@@ -26,7 +26,8 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 ## Data Model 
 
 <p align="center">
-  <img src="https://github.com/Naveen-S6/AtliQ_Mart_Supply_Chain_Analysis/blob/main/resources/data_model.png" height="400">
+  
+  <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png" height="400">
 </p>
 
 ## Dashboard 
