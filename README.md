@@ -28,6 +28,8 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png" height="400">
 </p>
 
+![DAtamodel](https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png)
+
 ## Dashboard 
 
 <p align="center">
@@ -50,6 +52,20 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 <p align="center">
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page4_powerbi_dashboard.png" width="300">
 </p>
+
+## Dashboard Overview:
+- The dashboard displays key metrics provided by GDS from an FMCG company's supply chain team.
+- Major key metrics tracked include OT%, IF%, OTIF%, LIFR (Line Fill Rate), and VOFR (Volume Fill Rate).
+- DAX formulas are used for these metrics.
+- The dashboard shows the percentage of all these metrics.
+- Quantity matrices are also calculated.
+- Data is presented with splits by cities, highlighting OT%, IF%, and OTIF%.
+- Slicers are used for Month, Day, and Category filters.
+- The Product Insight table presents LIFR and VOFR percentages based on product_name and months.
+- Line charts display total orders by month and city, with slicers for city, category, and day columns.
+- Pie charts depict city by orders, city by delivered orders, and city by undelivered orders.
+- Slicers are used for category, product_name, and date columns.
+
 
 ## Tools
 
@@ -87,8 +103,9 @@ Measures of fact_targets_orders
 ## Some Major Insights 
 
 - All the Key Metrics (OT%, IF%, OTIF%) are far behind the target
+- Surat has fewer orders and delivered orders than other cities, but Vadodara has more undelivered Orders.
 - On an average, orders are delayed 0.42 days from the agreed date of delivery
-- Highest orders are coming in Vodera City
+- Highest orders are coming in Vododara City
 - Ghee, curd and butter products are most delayed to deliver. 
 - There is no noticeable improvements in any of the key metrics in the last few months
 - There is a huge gap in IF% for most of the customers. Is it because of less production?
