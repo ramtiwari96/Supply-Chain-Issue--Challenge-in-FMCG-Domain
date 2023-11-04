@@ -28,20 +28,9 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png" height="400">
 </p>
 
-![DAtamodel](https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png raw=true)
 
 ## Dashboard 
 
-<p align="center">
-  <img src="https://github.com/Naveen-S6/AtliQ_Mart_Supply_Chain_Analysis/blob/main/resources/Dashboard.jpg" width="300">
-</p>
-<<<<<<< HEAD
-<<<<<<< HEAD
-![CHEESE!](page1_powerbi_dashboard.png)
-=======
-![page1_powerbi_dashboard](https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/assets/145423598/d0b8ad48-11fa-4e10-962b-57950ce654f1)
->>>>>>> 256a6e50144c65d7b6acb34bdb722929b625ab8a
-=======
 
 <p align="center">
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page1_powerbi_dashboard.png" width="300">
