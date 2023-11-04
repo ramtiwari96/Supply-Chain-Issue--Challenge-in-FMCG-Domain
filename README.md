@@ -69,8 +69,7 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 - Power Bi - After this, we used power bi for data visualization where we created many measures which served our niche and prepared a good dashboard to extract useful insights.
   
 ## DAX MEASURES
-DAX Formula
-Measures of fact_order_lines
+### Measures of fact_order_lines
 1.	Total Delivery Quantity = SUM(fact_order_lines[delivery_qty])
 2.	Total Order Quantity = SUM(fact_order_lines[order_qty])
 3.	Total Undeliverd Quantity = [Total Order Quantity]-[Total Delivery Quantity]
@@ -79,7 +78,7 @@ Measures of fact_order_lines
 6.	VOFR % = DIVIDE(SUM(fact_order_lines[delivery_qty]),[Total Order Quantity])
 
 
-Measures of fact_order_aggregate
+### Measures of fact_order_aggregate
 1.	inful_quantity=CALCULATE(COUNTA(fact_orders_aggregate[in_full]),
 fact_orders_aggregate[in_full]=1)
 2.	on_time_order=CALCULATE(COUNTA(fact_orders_aggregate[on_time]),
@@ -89,7 +88,7 @@ fact_orders_aggregate[on_time]=1)
 5.	OT % = DIVIDE([on_time_order],[Total_Orders_agg])
 6.	OTIF%=DIVIDE(CALCULATE(COUNTA(fact_orders_aggregate[otif]),fact_orders_aggregate[otif]=1),[Total_Orders_agg])
 
-Measures of fact_targets_orders
+### Measures of fact_targets_orders
 
 1.	IF Traget% = AVERAGE(dim_targets_orders[infull_target%])
 2.	OT Traget % = AVERAGE(dim_targets_orders[ontime_target%])
