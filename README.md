@@ -53,7 +53,36 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page4_powerbi_dashboard.png" width="300">
 </p>
 
-page4_powerbi_dashboard.png
+page4_powerbi_dashboard.
+
+## DAX MEASURES
+DAX Formula
+Measures of fact_order_lines
+1.	Total Delivery Quantity = SUM(fact_order_lines[delivery_qty])
+2.	Total Order Quantity = SUM(fact_order_lines[order_qty])
+3.	Total Undeliverd Quantity = [Total Order Quantity]-[Total Delivery Quantity]
+4.	total_order_line = COUNT(fact_order_lines[order_id])
+5.	LIFR % = DIVIDE(CALCULATE(COUNTA(fact_order_lines[In Full]),fact_order_lines[In Full]=1),[total_order_line])
+6.	VOFR % = DIVIDE(SUM(fact_order_lines[delivery_qty]),[Total Order Quantity])
+
+
+Measures of fact_order_aggregate
+1.	inful_quantity=CALCULATE(COUNTA(fact_orders_aggregate[in_full]),
+fact_orders_aggregate[in_full]=1)
+2.	on_time_order=CALCULATE(COUNTA(fact_orders_aggregate[on_time]),
+fact_orders_aggregate[on_time]=1)
+3.	Total_Orders_agg = COUNT(fact_orders_aggregate[order_id])
+4.	IF % = DIVIDE([inful_quantity],[Total_Orders_agg])
+5.	OT % = DIVIDE([on_time_order],[Total_Orders_agg])
+6.	OTIF%=DIVIDE(CALCULATE(COUNTA(fact_orders_aggregate[otif]),fact_orders_aggregate[otif]=1),[Total_Orders_agg])
+
+Measures of fact_targets_orders
+
+1.	IF Traget% = AVERAGE(dim_targets_orders[infull_target%])
+2.	OT Traget % = AVERAGE(dim_targets_orders[ontime_target%])
+3.	OTIF Traget% = AVERAGE(dim_targets_orders[otif_target%])
+
+
 ## Some Major Insights 
 
 - All the Key Metrics (OT%, IF%, OTIF%) are far behind the target
