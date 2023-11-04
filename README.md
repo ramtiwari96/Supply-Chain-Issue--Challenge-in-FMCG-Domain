@@ -1,8 +1,5 @@
-#Project
-## GDS Mart Supply Chain Analysis
-As part of the October month codebaiscs resume challenge, I have performed data analysis and designed a dashboard in Power BI
-
-
+## Project
+### Generate Insights to Solve a Supply Chain Issue in FMCG Domain
 
 ## Problem statement
 
@@ -17,9 +14,10 @@ The Supply Chain team decided to use a standard approach to measure the service 
 ### Task 
 
 Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart recently. He has been briefed about the task in the stakeholder business review meeting. Now Imagine yourself as Mr. Analyst and play the role of the new data analyst who is excited to build this dashboard and perform the following task:
-•	Create the metrics according to the metrics list( Below)
-•	Create a dashboard according to the requirements provided by stakeholders in the business review meeting. You will be provided with the transcript of this business review meeting in the form of a comic.
-•	Create relevant insights that are not provided in the metric list/stakeholder meeting.
+
+- Create the metrics according to the metrics list( Below)
+- Create a dashboard according to the requirements provided by stakeholders in the business review meeting. You will be provided with the transcript of this business review meeting in the form of a comic.
+- Create relevant insights that are not provided in the metric list/stakeholder meeting.
 
 
 
@@ -29,6 +27,8 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
   
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png" height="400">
 </p>
+
+![DAtamodel](https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/f1d6cb9a63c68465166db2b2ba55557a0f7ec97f/model_Image.png raw=true)
 
 ## Dashboard 
 
@@ -60,8 +60,25 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
   <img src="https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page4_powerbi_dashboard.png" width="300">
 </p>
 
-https://github.com/ramtiwari96/Supply-Chain-Issue--Challenge-in-FMCG-Domain/blob/7ccdebfe89b325d3b927419e590349c869b1a894/page4_powerbi_dashboard.png
+## Dashboard Overview:
+- The dashboard displays key metrics provided by GDS from an FMCG company's supply chain team.
+- Major key metrics tracked include OT%, IF%, OTIF%, LIFR (Line Fill Rate), and VOFR (Volume Fill Rate).
+- DAX formulas are used for these metrics.
+- The dashboard shows the percentage of all these metrics.
+- Quantity matrices are also calculated.
+- Data is presented with splits by cities, highlighting OT%, IF%, and OTIF%.
+- Slicers are used for Month, Day, and Category filters.
+- The Product Insight table presents LIFR and VOFR percentages based on product_name and months.
+- Line charts display total orders by month and city, with slicers for city, category, and day columns.
+- Pie charts depict city by orders, city by delivered orders, and city by undelivered orders.
+- Slicers are used for category, product_name, and date columns.
 
+
+## Tools
+
+- Python - First of all, we imported the data through Python's pandas library, analyzed the data set, and checked that it did not contain any duplicate or missing values.
+- Power Bi - After this, we used power bi for data visualization where we created many measures which served our niche and prepared a good dashboard to extract useful insights.
+  
 ## DAX MEASURES
 DAX Formula
 Measures of fact_order_lines
@@ -94,10 +111,9 @@ Measures of fact_targets_orders
 ## Some Major Insights 
 
 - All the Key Metrics (OT%, IF%, OTIF%) are far behind the target
+- Surat has fewer orders and delivered orders than other cities, but Vadodara has more undelivered Orders.
 - On an average, orders are delayed 0.42 days from the agreed date of delivery
-- Lotus Mart, Coolblue, Acclaimed stores have the highest orders as well as delayed the most to deliver the products on time 
-  - Is it because we are not estimating the right delivery date?
-  - Is it because we are receiving more orders than expected?
+- Highest orders are coming in Vododara City
 - Ghee, curd and butter products are most delayed to deliver. 
 - There is no noticeable improvements in any of the key metrics in the last few months
 - There is a huge gap in IF% for most of the customers. Is it because of less production?
