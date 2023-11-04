@@ -35,6 +35,7 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 <p align="center">
   <img src="https://github.com/Naveen-S6/AtliQ_Mart_Supply_Chain_Analysis/blob/main/resources/Dashboard.jpg" width="300">
 </p>
+![CHEESE!](page1_powerbi_dashboard.png)
 
 ## Some Major Insights 
 
