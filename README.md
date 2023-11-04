@@ -66,7 +66,7 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 ## Tools
 
 - Python - First of all, we imported the data through Python's pandas library, analyzed the data set, and checked that it did not contain any duplicate or missing values.
-- Power Bi - After this, we used power bi for data visualization where we created many measures which served our niche and prepared a good dashboard to extract useful insights.
+- Power Bi - After this, we used power bi for data visualization where we created many measures which is given below and prepared a good dashboard to extract useful insights.
   
 ## DAX MEASURES
 ### Measures of fact_order_lines
