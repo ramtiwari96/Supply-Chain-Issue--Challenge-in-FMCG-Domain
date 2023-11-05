@@ -29,7 +29,7 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 </p>
 
 
-## Dashboard 
+## Dashboard Screenshots
 
 
 <p align="center">
@@ -50,7 +50,6 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 </p>
 
 ## Dashboard Overview:
-- The dashboard displays key metrics provided by GDS from an FMCG company's supply chain team.
 - Major key metrics tracked include OT%, IF%, OTIF%, LIFR (Line Fill Rate), and VOFR (Volume Fill Rate).
 - DAX formulas are used for these metrics.
 - The dashboard shows the percentage of all these metrics.
@@ -66,11 +65,10 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 ## Tools
 
 - Python - First of all, we imported the data through Python's pandas library, analyzed the data set, and checked that it did not contain any duplicate or missing values.
-- Power Bi - After this, we used power bi for data visualization where we created many measures which served our niche and prepared a good dashboard to extract useful insights.
+- Power Bi - After this, we used power bi for data visualization where we created many measures which is given below and prepared a good dashboard to extract useful insights.
   
 ## DAX MEASURES
-DAX Formula
-Measures of fact_order_lines
+### Measures of fact_order_lines
 1.	Total Delivery Quantity = SUM(fact_order_lines[delivery_qty])
 2.	Total Order Quantity = SUM(fact_order_lines[order_qty])
 3.	Total Undeliverd Quantity = [Total Order Quantity]-[Total Delivery Quantity]
@@ -79,7 +77,7 @@ Measures of fact_order_lines
 6.	VOFR % = DIVIDE(SUM(fact_order_lines[delivery_qty]),[Total Order Quantity])
 
 
-Measures of fact_order_aggregate
+### Measures of fact_order_aggregate
 1.	inful_quantity=CALCULATE(COUNTA(fact_orders_aggregate[in_full]),
 fact_orders_aggregate[in_full]=1)
 2.	on_time_order=CALCULATE(COUNTA(fact_orders_aggregate[on_time]),
@@ -89,7 +87,7 @@ fact_orders_aggregate[on_time]=1)
 5.	OT % = DIVIDE([on_time_order],[Total_Orders_agg])
 6.	OTIF%=DIVIDE(CALCULATE(COUNTA(fact_orders_aggregate[otif]),fact_orders_aggregate[otif]=1),[Total_Orders_agg])
 
-Measures of fact_targets_orders
+### Measures of fact_targets_orders
 
 1.	IF Traget% = AVERAGE(dim_targets_orders[infull_target%])
 2.	OT Traget % = AVERAGE(dim_targets_orders[ontime_target%])
@@ -101,7 +99,7 @@ Measures of fact_targets_orders
 - All the Key Metrics (OT%, IF%, OTIF%) are far behind the target
 - Surat has fewer orders and delivered orders than other cities, but Vadodara has more undelivered Orders.
 - On an average, orders are delayed 0.42 days from the agreed date of delivery
-- Highest orders are coming in Vododara City
+- Highest orders are coming in Ahmedabad City
 - Ghee, curd and butter products are most delayed to deliver. 
 - There is no noticeable improvements in any of the key metrics in the last few months
 - There is a huge gap in IF% for most of the customers. Is it because of less production?
