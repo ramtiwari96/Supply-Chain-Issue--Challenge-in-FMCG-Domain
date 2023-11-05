@@ -29,7 +29,7 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 </p>
 
 
-## Dashboard 
+## Dashboard Screenshots
 
 
 <p align="center">
@@ -50,7 +50,6 @@ Mr. Analyst is the data analyst in the supply chain team who joined GDS Mart rec
 </p>
 
 ## Dashboard Overview:
-- The dashboard displays key metrics provided by GDS from an FMCG company's supply chain team.
 - Major key metrics tracked include OT%, IF%, OTIF%, LIFR (Line Fill Rate), and VOFR (Volume Fill Rate).
 - DAX formulas are used for these metrics.
 - The dashboard shows the percentage of all these metrics.
@@ -100,7 +99,7 @@ fact_orders_aggregate[on_time]=1)
 - All the Key Metrics (OT%, IF%, OTIF%) are far behind the target
 - Surat has fewer orders and delivered orders than other cities, but Vadodara has more undelivered Orders.
 - On an average, orders are delayed 0.42 days from the agreed date of delivery
-- Highest orders are coming in Vododara City
+- Highest orders are coming in Ahmedabad City
 - Ghee, curd and butter products are most delayed to deliver. 
 - There is no noticeable improvements in any of the key metrics in the last few months
 - There is a huge gap in IF% for most of the customers. Is it because of less production?
